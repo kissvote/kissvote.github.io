@@ -387,6 +387,8 @@ module.exports = function (grunt) {
     ]);
   });
 
+  grunt.loadNpmTasks("grunt-modernizr");
+
   grunt.registerTask('build', [
     'clean:dist',
     'wiredep',
